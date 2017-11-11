@@ -1,0 +1,30 @@
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+            <title>JS与OC交互</title>
+            
+            <!--  定义js函数  -->
+            <script type="text/javascript">
+                function test1()
+                {
+                   var res= apobject.jsToAction('2','分享内容 http://www.mob.com','33','55');
+                   alert(res);
+                }
+            
+            function test2()
+            {
+                apobject.jsToAction('1','分享内容 http://www.mob.com','33','55');
+            }
+            </script>
+            
+    </head>
+    <body>
+        <br /><br /><br /><br />
+        <!-- 创建一个按钮，点击就调用  printHelloWorld()  方法 -->
+        <button onclick="test2();">分享</button>
+          <button onclick="test1();">发送验证码</button>
+    </body>
+</html>
+
+

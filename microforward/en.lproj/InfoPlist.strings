@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  microforward
+
+  Created by 张小明 on 2017/8/3.
+  Copyright © 2017年 张小明. All rights reserved.
+*/
+CFBundleDisplayName = "MicroForward";
